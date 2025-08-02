@@ -34,3 +34,9 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Gemini-related files
+gemini_mcp_paradox.png
+gemini_mcp_paradox.puml
+git_and_GitHub_workflow.md
+guides

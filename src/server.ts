@@ -31,6 +31,8 @@ export async function createServerWithTools(options: Options): Promise<Server> {
     },
   );
 
+  console.log(`[EXPERIMENTAL] BrowserMCP Server v${version} is running.`);
+
   const wss = await createWebSocketServer();
   wss.on("connection", (websocket) => {
     // Close any existing connections
